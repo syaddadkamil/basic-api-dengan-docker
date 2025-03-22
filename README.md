@@ -13,9 +13,9 @@ ISENG AJAH
 
  ### jalanin tanpa docker 
    menggunakan npm
-   
+
     ```bash
-    npm run dev
+     npm run dev
     ```
 
  ### jalanin dengan docker dengan file .env.development
