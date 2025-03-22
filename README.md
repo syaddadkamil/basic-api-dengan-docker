@@ -10,6 +10,7 @@ ISENG AJAH
     ```bash
     npm install
     ```
+
  ### jalanin tanpa docker 
     ```bash
     npm run dev
@@ -20,16 +21,19 @@ ISENG AJAH
     ```bash
     docker build -t api-docker:1.0 .
     ```
+
  3. jalanin container
     ```bash
     docker run -d --name api-docker-1 --env-file .env.development -p 8081:8080 api-docker:1.0
     ```
+
  ### jalanin container tanpa file .env.development
  1. pastikan file .env.development kosong
  2. build container lagi
     ```bash
     docker build -t api-docker:1.1 .
     ```
+    
  3. jalanin docker container
     ```bash
     docker run -d --name api-docker-2 -e NAME=SERVER-2 -e PORT=8080 -p 8082:8080 api-docker:1.1
