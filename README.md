@@ -12,7 +12,8 @@ ISENG AJAH
     ```
 
  ### jalanin tanpa docker 
- menggunakan npm
+   menggunakan npm
+   
     ```bash
     npm run dev
     ```
