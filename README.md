@@ -12,10 +12,11 @@ ISENG AJAH
     ```
 
  ### jalanin tanpa docker 
+ 
     ```bash
     npm run dev
     ```
-    
+
  ### jalanin dengan docker dengan file .env.development
  1. isi file .env.development misal NAME=SERVER-1 PORT=8080
  2. build container
